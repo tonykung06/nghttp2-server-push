@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nghttp2 server</title>
+</head>
+<body>
+<h1>
+    Welcome to the nghttp2 priority demo
+</h1>
+<p>
+    In order to run this demo, you need to:
+</p>
+
+<ul>
+    <li>
+        Download and install nghttp2
+    </li>
+    <li>
+        Create a folder for the demo app, for instance 'http2'
+        </li>
+    <li>
+        Place the entire docs project under it in a folder named 'docs'
+    </li>
+    <li>
+        Create a self-signed certificate, for instance using 'openssl' and place it in the folder 'http2/certs'
+    </li>
+    <li>
+        Run nghttp2 using the command 'nghttpd 443 certs/ca.key certs/ca.crt -d docs' from the 'http2' folder
+    </li>
+</ul>
+
+Note that you need administrator privileges (or root) to open port 443. If you don't have permissions, you can use another port
+
+</body>
+</html>
